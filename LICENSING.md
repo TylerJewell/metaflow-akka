@@ -7,8 +7,13 @@ Tyler Jewell. See `LICENSE` and `NOTICE`.
 
 Other rebuilds in this experiment carry a second licence, because they reuse the
 original's front end verbatim under this harness's RENDERING.md R3, and that code stays
-under the licence its authors chose. This one vendors nothing: every file here was written
-for this project, so there is no second body of code for a second licence to govern.
+under the licence its authors chose. This one vendors nothing: every file of code here was
+written for this project, so there is no second body of code for a second licence to
+govern.
+
+A `LICENSE-metaflow` file may sit beside this one. That is the original's licence text
+reproduced for attribution, cited by `ACKNOWLEDGEMENTS.md`; it is not a grant over
+anything in this repository, because nothing here is the original's code.
 
 The boundary is checked rather than asserted. Every file in this repository was compared
 against the cloned original looking for byte-identical matches, and the `.vendored`
